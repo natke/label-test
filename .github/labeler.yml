@@ -6,7 +6,7 @@ documentation:
   - '(C#)'
 # Add/remove 'api' label if issue contains the word 'Python', 'C++', 'C\b', 'Obj-C', or 'WinRT'
 duplicate:
-  - '(Python|C++|C\b|Obj-C|WinRT)'
+  - '(\bPython\b|\bC\+\+\b|\bC\b|\bObj-C\b|\bWinRT\b)'
 # Add/remove 'platform:jetson' label if issue contains the word 'Jetson' or 'jetson'
 enhancement:
   - '(Jetson|jetson)'
