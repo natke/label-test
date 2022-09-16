@@ -1,10 +1,10 @@
 # Add/remove 'api:Java' label if issue contains the word 'Java' not followed by 'Script'
 bug:
-  - '(Java(?!Script))'
+  - '\bJava(?!Script)\b'
 # Add/remove 'api' label if issue contains the word 'C#'
 documentation:
-  - '(C#)'
-# Add/remove 'api' label if issue contains the word 'Python', 'C++', 'C\b', 'Obj-C', or 'WinRT'
+  - '\bC#\b'
+# Add/remove 'api' label if issue contains the word 'Python', 'C++', 'C', 'Obj-C', or 'WinRT'
 duplicate:
   - '(\bPython\b|\bC\+\+\b|\bC\b|\bObj-C\b|\bWinRT\b)'
 # Add/remove 'platform:jetson' label if issue contains the word 'Jetson' or 'jetson'
@@ -21,4 +21,4 @@ invalid:
   - '(Is this a quantized model\?\n\nYes|Quantization|quantization|Quantized|(?<!(Is this a ))quantized)'
 # Add/remove 'build' label if issue contains the word 'ACL', 'ArmNN', 'CUDA', 'DirectML', 'MIGraphX', 'oneDNN', 'OpenVINO', 'Rockchip NPU', 'TensorRT', 'TVM', 'Vitis AI', 'Java', 'Python', 'C++', 'C#', 'C\b', or 'Obj-C'
 question:
-  - '(ACL|ArmNN|CUDA|DirectML|MIGraphX|oneDNN|OpenVINO|Rockchip NPU|TensorRT|TVM|Vitis AI|Java|Python|C++|C#|C\b|Obj-C)'
+  - '(ACL|ArmNN|CUDA|DirectML|MIGraphX|oneDNN|OpenVINO|Rockchip NPU|TensorRT|TVM|Vitis AI|Java|Python|C\+\+|C#|C|Obj-C)'
