@@ -1,26 +1,2 @@
-# Add/remove 'api:Java' label if issue contains the word 'Java' not followed by 'Script'
-bug:
-  - '\bJava(?!Script)\b'
-# Add/remove 'api' label if issue contains the word 'C#'
-documentation:
-  - '\bC#\b'
-# Add/remove 'api' label if issue contains the word 'Python', 'C++', 'C', 'Obj-C', or 'WinRT'
-duplicate:
-  - '(\bPython\b|\bC\+\+\b|\bC\b|\bObj-C\b|\bWinRT\b)'
-# Add/remove 'platform:jetson' label if issue contains the word 'Jetson' or 'jetson'
-enhancement:
-  - '(Jetson|jetson)'
-# Add/remove 'platform:windows' label if issue contains the word 'Windows'
-goodfirstissue:
-  - '(Windows)'
-# Add/remove 'model:transformer' label if issue contains the word 'BERT', 'Bert\b', 'bert\b', 'GPT2', 'gpt2', 'Hugging Face', 'HuggingFace', 'Hugging face', 'Huggingface', 'hugging face', 'huggingface', 'Longformer', 'Long former', 'longformer', 'long former', 'T5', or 't5'
-helpwanted:
-  - '(BERT|Bert\b|bert\b|GPT2|gpt2|Hugging Face|HuggingFace|Hugging face|Huggingface|hugging face|huggingface|Longformer|Long former|longformer|long former|T5|t5)'
-# Add/remove 'quantization' label contains the words 'Is this a quantized model\?\n\nYes', 'Quantization', 'quantization', 'Quantized', or 'quantized' not preceded by 'Is this a '
-invalid:
-  - '(Is this a quantized model\?\n\nYes|Quantization|quantization|Quantized|(?<!(Is this a ))quantized)'
-# Add/remove 'build' label if issue contains the word 'ACL', 'ArmNN', 'CUDA', 'DirectML', 'MIGraphX', 'oneDNN', 'OpenVINO', 'Rockchip NPU', 'TensorRT', 'TVM', 'Vitis AI', 'Java', 'Python', 'C++', 'C#', 'C\b', or 'Obj-C'
-question:
-  - '(ACL|ArmNN|CUDA|DirectML|MIGraphX|oneDNN|OpenVINO|Rockchip NPU|TensorRT|TVM|Vitis AI|Java|Python|C\+\+|C#|C|Obj-C)'
-wontfix:
-  - 'This is a dummy issue'
+cuda:
+  '\bcuda\b/i
