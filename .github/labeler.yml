@@ -1,3 +1,4 @@
-cuda: /\bcuda\s/i
-api:c++: /\bc\+\+\s/i
+cuda: /\bcuda\b/i
+api:c++: /\bc\+\+\b/i
 api:c: /\bc\s/i
+ep:acl: /\bacl\b/i
