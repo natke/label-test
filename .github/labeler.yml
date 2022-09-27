@@ -1,1 +1,1 @@
-cuda: /cuda/i
+cuda: /\bcuda\b/i
