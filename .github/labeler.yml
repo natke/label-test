@@ -1,2 +1,2 @@
 cuda:
-  '/\bcuda\b/i'
+  '/cuda/i'
