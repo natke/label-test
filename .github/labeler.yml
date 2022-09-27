@@ -1,1 +1,3 @@
 cuda: /\bcuda\b/i
+c:api: /\bc\b/i
+c++:api: /\bc\+\+\b/i
