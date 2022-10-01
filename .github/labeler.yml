@@ -1,8 +1,3 @@
 ep:ACL: '/\bacl\b/i'
 ep:ArmNN: '/\barmnn\b/i'
 ep:CUDA: '/\bcuda\b/i'
-ep:DML:
-  - '/\bdirectml\b/i'
-  - '/\bdml\b/i'
-ep:MIGraphX: /\bmigraphx\b/i'
-
