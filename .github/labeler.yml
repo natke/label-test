@@ -5,5 +5,4 @@ ep:DML:
   - '/\bdirectml\b/i'
   - '/\bdml\b/i'
 ep:MIGraphX: /\bmigraphx\b/i'
-ep:oneDNN: '/\bonednn\b/i'
 
