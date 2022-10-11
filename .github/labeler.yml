@@ -1,4 +1,4 @@
-test: '\bt5\b/i'
+test: '\bt\5\b/i'
 ep:ACL: '/\bacl\b/i'
 ep:ArmNN: '/\barmnn\b/i'
 ep:CUDA: '/\bcuda\b/i'
