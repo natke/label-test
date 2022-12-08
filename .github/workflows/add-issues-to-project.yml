@@ -10,7 +10,7 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v1
+      - uses: actions/add-to-project@v0.4.0
         with:
 #          project-url: https://github.com/microsoft/onnxruntime/projects/6
           project-url: https://github.com/users/natke/projects/2
