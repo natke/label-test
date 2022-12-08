@@ -14,5 +14,5 @@ jobs:
         with:
 #          project-url: https://github.com/microsoft/onnxruntime/projects/6
           project-url: https://github.com/users/natke/projects/2
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.ISSUE_TOKEN }}
           labeled: documentation
