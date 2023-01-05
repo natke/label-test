@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Generate token
         id: generate_token
-        uses: vidavidorra/github-app-token@latest
+        uses: vidavidorra/github-app-token@1.0.0
         with:
           appId: ${{ secrets.APP_ID_TRIAGE }}
           privateKey: ${{ secrets.APP_ID_KEY }}
