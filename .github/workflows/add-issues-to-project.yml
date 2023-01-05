@@ -12,7 +12,6 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.4.0
         with:
-#          project-url: https://github.com/microsoft/onnxruntime/projects/6
-          project-url: https://github.com/users/natke/projects/2
+          project-url: https://github.com/orgs/microsoft/projects/635
           github-token: ${{ secrets.ISSUE_TOKEN }}
           labeled: documentation
