@@ -14,8 +14,14 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
+      - name: Generate token
+        id: generate_token
+        uses: vidavidorra/github-app-token@latest
+        with:
+          appId: ${{ secrets.APP_ID_TRIAGE }}
+          privateKey: ${{ secrets.APP_ID_KEY }}
       - uses: actions/add-to-project@v0.4.0
         with:
           project-url: https://github.com/orgs/microsoft/projects/635
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ steps.generate_token.outputs.token }}
           labeled: documentation
