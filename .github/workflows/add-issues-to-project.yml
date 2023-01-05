@@ -19,7 +19,7 @@ jobs:
         uses: vidavidorra/github-app-token@v1.0.0
         with:
           appId: ${{ secrets.APP_ID_TRIAGE }}
-          privateKey: ${{ secrets.APP_ID_KEY }}
+          privateKey: ${{ secrets.TRIAGE_PRIVATE_KEY }}
       - uses: actions/add-to-project@v0.4.0
         with:
           project-url: https://github.com/orgs/microsoft/projects/635
