@@ -14,5 +14,5 @@ jobs:
       - uses: actions/add-to-project@v0.4.0
         with:
           project-url: https://github.com/orgs/microsoft/projects/635
-          github-token: ${{ secrets.ISSUE_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           labeled: documentation
