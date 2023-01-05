@@ -5,6 +5,9 @@ on:
     types:
       - opened
       - labeled
+      
+permissions:
+  actions: write
 
 jobs:
   add-to-project:
